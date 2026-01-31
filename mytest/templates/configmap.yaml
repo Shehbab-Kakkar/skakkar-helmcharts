@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-webpage
+data:
+  index.html: |-
+    {{ .Values.web.indexHtml | nindent 4 }}
