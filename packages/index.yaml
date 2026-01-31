@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   mytest:
   - apiVersion: v2
+    appVersion: "1.2"
+    created: "2026-01-31T21:46:41.468691934+05:30"
+    description: Nginx Helm Chart with web page
+    digest: bcc747c1fea8092c858e42b95ef5e0bde8e075ac8dd603837b7f3da16172774d
+    name: mytest
+    urls:
+    - mytest-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: "1.1"
-    created: "2026-01-31T21:29:07.916516582+05:30"
+    created: "2026-01-31T21:46:41.468591319+05:30"
     description: Nginx Helm Chart with web page
     digest: bc0b7a0603e1db673a19482ac2ed39f4869b3db5c3c0c782a8bab1b488619047
     name: mytest
@@ -12,11 +21,11 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-01-31T21:29:07.915904225+05:30"
+    created: "2026-01-31T21:46:41.468473731+05:30"
     description: Nginx Helm Chart with web page
     digest: 944387a7bb901c37f8d4fabf667961ef825fbae8616d71221b5c45448646ff13
     name: mytest
     urls:
     - mytest-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-31T21:29:07.915666477+05:30"
+generated: "2026-01-31T21:46:41.468225827+05:30"
